@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0D429928390A31001E96C2 /* FiverrOrderMay18SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D429828390A31001E96C2 /* FiverrOrderMay18SwiftUIApp.swift */; };
+		ED0D429B28390A31001E96C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D429A28390A31001E96C2 /* ContentView.swift */; };
+		ED0D429D28390A34001E96C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0D429C28390A34001E96C2 /* Assets.xcassets */; };
+		ED0D42A028390A34001E96C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0D429F28390A34001E96C2 /* Preview Assets.xcassets */; };
+		ED0D42AA28390A34001E96C2 /* FiverrOrderMay18SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D42A928390A34001E96C2 /* FiverrOrderMay18SwiftUITests.swift */; };
+		ED0D42B428390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D42B328390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.swift */; };
+		ED0D42B628390A34001E96C2 /* FiverrOrderMay18SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D42B528390A34001E96C2 /* FiverrOrderMay18SwiftUIUITestsLaunchTests.swift */; };
+		ED0D42C3283917A2001E96C2 /* Device+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D42C2283917A2001E96C2 /* Device+Extension.swift */; };
+		ED0D42C528392393001E96C2 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D42C428392393001E96C2 /* ListCell.swift */; };
+		ED0D42C7283923A7001E96C2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0D42C6283923A7001E96C2 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED0D42A628390A34001E96C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0D428D28390A31001E96C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0D429428390A31001E96C2;
+			remoteInfo = FiverrOrderMay18SwiftUI;
+		};
+		ED0D42B028390A34001E96C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED0D428D28390A31001E96C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED0D429428390A31001E96C2;
+			remoteInfo = FiverrOrderMay18SwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED0D429528390A31001E96C2 /* FiverrOrderMay18SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiverrOrderMay18SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D429828390A31001E96C2 /* FiverrOrderMay18SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiverrOrderMay18SwiftUIApp.swift; sourceTree = "<group>"; };
+		ED0D429A28390A31001E96C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED0D429C28390A34001E96C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0D429F28390A34001E96C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED0D42A528390A34001E96C2 /* FiverrOrderMay18SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiverrOrderMay18SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D42A928390A34001E96C2 /* FiverrOrderMay18SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiverrOrderMay18SwiftUITests.swift; sourceTree = "<group>"; };
+		ED0D42AF28390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiverrOrderMay18SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0D42B328390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiverrOrderMay18SwiftUIUITests.swift; sourceTree = "<group>"; };
+		ED0D42B528390A34001E96C2 /* FiverrOrderMay18SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiverrOrderMay18SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED0D42C2283917A2001E96C2 /* Device+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Extension.swift"; sourceTree = "<group>"; };
+		ED0D42C428392393001E96C2 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		ED0D42C6283923A7001E96C2 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0D429228390A31001E96C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D42A228390A34001E96C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D42AC28390A34001E96C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0D428C28390A31001E96C2 = {
+			isa = PBXGroup;
+			children = (
+				ED0D429728390A31001E96C2 /* FiverrOrderMay18SwiftUI */,
+				ED0D42A828390A34001E96C2 /* FiverrOrderMay18SwiftUITests */,
+				ED0D42B228390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests */,
+				ED0D429628390A31001E96C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0D429628390A31001E96C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D429528390A31001E96C2 /* FiverrOrderMay18SwiftUI.app */,
+				ED0D42A528390A34001E96C2 /* FiverrOrderMay18SwiftUITests.xctest */,
+				ED0D42AF28390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0D429728390A31001E96C2 /* FiverrOrderMay18SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D429828390A31001E96C2 /* FiverrOrderMay18SwiftUIApp.swift */,
+				ED0D429A28390A31001E96C2 /* ContentView.swift */,
+				ED0D429C28390A34001E96C2 /* Assets.xcassets */,
+				ED0D429E28390A34001E96C2 /* Preview Content */,
+				ED0D42C2283917A2001E96C2 /* Device+Extension.swift */,
+				ED0D42C428392393001E96C2 /* ListCell.swift */,
+				ED0D42C6283923A7001E96C2 /* Models.swift */,
+			);
+			path = FiverrOrderMay18SwiftUI;
+			sourceTree = "<group>";
+		};
+		ED0D429E28390A34001E96C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D429F28390A34001E96C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED0D42A828390A34001E96C2 /* FiverrOrderMay18SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D42A928390A34001E96C2 /* FiverrOrderMay18SwiftUITests.swift */,
+			);
+			path = FiverrOrderMay18SwiftUITests;
+			sourceTree = "<group>";
+		};
+		ED0D42B228390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D42B328390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.swift */,
+				ED0D42B528390A34001E96C2 /* FiverrOrderMay18SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = FiverrOrderMay18SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0D429428390A31001E96C2 /* FiverrOrderMay18SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0D42B928390A34001E96C2 /* Build configuration list for PBXNativeTarget "FiverrOrderMay18SwiftUI" */;
+			buildPhases = (
+				ED0D429128390A31001E96C2 /* Sources */,
+				ED0D429228390A31001E96C2 /* Frameworks */,
+				ED0D429328390A31001E96C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiverrOrderMay18SwiftUI;
+			productName = FiverrOrderMay18SwiftUI;
+			productReference = ED0D429528390A31001E96C2 /* FiverrOrderMay18SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED0D42A428390A34001E96C2 /* FiverrOrderMay18SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0D42BC28390A34001E96C2 /* Build configuration list for PBXNativeTarget "FiverrOrderMay18SwiftUITests" */;
+			buildPhases = (
+				ED0D42A128390A34001E96C2 /* Sources */,
+				ED0D42A228390A34001E96C2 /* Frameworks */,
+				ED0D42A328390A34001E96C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0D42A728390A34001E96C2 /* PBXTargetDependency */,
+			);
+			name = FiverrOrderMay18SwiftUITests;
+			productName = FiverrOrderMay18SwiftUITests;
+			productReference = ED0D42A528390A34001E96C2 /* FiverrOrderMay18SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED0D42AE28390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0D42BF28390A34001E96C2 /* Build configuration list for PBXNativeTarget "FiverrOrderMay18SwiftUIUITests" */;
+			buildPhases = (
+				ED0D42AB28390A34001E96C2 /* Sources */,
+				ED0D42AC28390A34001E96C2 /* Frameworks */,
+				ED0D42AD28390A34001E96C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0D42B128390A34001E96C2 /* PBXTargetDependency */,
+			);
+			name = FiverrOrderMay18SwiftUIUITests;
+			productName = FiverrOrderMay18SwiftUIUITests;
+			productReference = ED0D42AF28390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0D428D28390A31001E96C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					ED0D429428390A31001E96C2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					ED0D42A428390A34001E96C2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = ED0D429428390A31001E96C2;
+					};
+					ED0D42AE28390A34001E96C2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = ED0D429428390A31001E96C2;
+					};
+				};
+			};
+			buildConfigurationList = ED0D429028390A31001E96C2 /* Build configuration list for PBXProject "FiverrOrderMay18SwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0D428C28390A31001E96C2;
+			productRefGroup = ED0D429628390A31001E96C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0D429428390A31001E96C2 /* FiverrOrderMay18SwiftUI */,
+				ED0D42A428390A34001E96C2 /* FiverrOrderMay18SwiftUITests */,
+				ED0D42AE28390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0D429328390A31001E96C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D42A028390A34001E96C2 /* Preview Assets.xcassets in Resources */,
+				ED0D429D28390A34001E96C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D42A328390A34001E96C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D42AD28390A34001E96C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0D429128390A31001E96C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D429B28390A31001E96C2 /* ContentView.swift in Sources */,
+				ED0D42C528392393001E96C2 /* ListCell.swift in Sources */,
+				ED0D42C3283917A2001E96C2 /* Device+Extension.swift in Sources */,
+				ED0D429928390A31001E96C2 /* FiverrOrderMay18SwiftUIApp.swift in Sources */,
+				ED0D42C7283923A7001E96C2 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D42A128390A34001E96C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D42AA28390A34001E96C2 /* FiverrOrderMay18SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D42AB28390A34001E96C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0D42B628390A34001E96C2 /* FiverrOrderMay18SwiftUIUITestsLaunchTests.swift in Sources */,
+				ED0D42B428390A34001E96C2 /* FiverrOrderMay18SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED0D42A728390A34001E96C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0D429428390A31001E96C2 /* FiverrOrderMay18SwiftUI */;
+			targetProxy = ED0D42A628390A34001E96C2 /* PBXContainerItemProxy */;
+		};
+		ED0D42B128390A34001E96C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED0D429428390A31001E96C2 /* FiverrOrderMay18SwiftUI */;
+			targetProxy = ED0D42B028390A34001E96C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED0D42B728390A34001E96C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0D42B828390A34001E96C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0D42BA28390A34001E96C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FiverrOrderMay18SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiverr.FiverrOrderMay18SwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED0D42BB28390A34001E96C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FiverrOrderMay18SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiverr.FiverrOrderMay18SwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED0D42BD28390A34001E96C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiverr.FiverrOrderMay18SwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiverrOrderMay18SwiftUI.app/FiverrOrderMay18SwiftUI";
+			};
+			name = Debug;
+		};
+		ED0D42BE28390A34001E96C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiverr.FiverrOrderMay18SwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiverrOrderMay18SwiftUI.app/FiverrOrderMay18SwiftUI";
+			};
+			name = Release;
+		};
+		ED0D42C028390A34001E96C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiverr.FiverrOrderMay18SwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiverrOrderMay18SwiftUI;
+			};
+			name = Debug;
+		};
+		ED0D42C128390A34001E96C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiverr.FiverrOrderMay18SwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiverrOrderMay18SwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0D429028390A31001E96C2 /* Build configuration list for PBXProject "FiverrOrderMay18SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D42B728390A34001E96C2 /* Debug */,
+				ED0D42B828390A34001E96C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0D42B928390A34001E96C2 /* Build configuration list for PBXNativeTarget "FiverrOrderMay18SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D42BA28390A34001E96C2 /* Debug */,
+				ED0D42BB28390A34001E96C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0D42BC28390A34001E96C2 /* Build configuration list for PBXNativeTarget "FiverrOrderMay18SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D42BD28390A34001E96C2 /* Debug */,
+				ED0D42BE28390A34001E96C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0D42BF28390A34001E96C2 /* Build configuration list for PBXNativeTarget "FiverrOrderMay18SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0D42C028390A34001E96C2 /* Debug */,
+				ED0D42C128390A34001E96C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0D428D28390A31001E96C2 /* Project object */;
+}
